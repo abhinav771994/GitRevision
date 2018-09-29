@@ -25,5 +25,4 @@ public class Prime {
     }
 
 	sout("First Commit checkout");
-	sout("Second Commit Checkout ");
 
