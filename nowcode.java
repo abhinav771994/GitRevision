@@ -25,4 +25,4 @@ public class Prime {
     }
 
 	sout("First Commit checkout");
-
+	sout(" Next to Changs checkout to commit data");
