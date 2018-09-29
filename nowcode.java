@@ -6,6 +6,7 @@ public class Prime {
             if( lcm % n1 == 0 && lcm % n2 == 0 )
             {
                 System.out.printf("The LCM of %d and %d is %d.", n1, n2, lcm);
+				
                 break;
             }
             ++lcm;
@@ -26,4 +27,5 @@ public class Prime {
 
 	sout("First Commit checkout");
 sout(" Evrtything Is Good . Your Health is  awesome");
+sout("Forgive and forgate and move on");
 
