@@ -25,5 +25,4 @@ public class Prime {
     }
 
 	sout("First Commit checkout");
-	dout("My Checkout From Last Date US");
 
