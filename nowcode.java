@@ -28,4 +28,6 @@ public class Prime {
 	sout("First Commit checkout");
 sout(" Evrtything Is Good . Your Health is  awesome");
 sout("Forgive and forgate and move on");
+sout("40+ Hours a week make diffrent from other");
+
 
