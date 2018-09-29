@@ -1,7 +1,15 @@
 public class Prime {
 
     public static void main(String[] args) {
-
+		while(true)
+        {
+            if( lcm % n1 == 0 && lcm % n2 == 0 )
+            {
+                System.out.printf("The LCM of %d and %d is %d.", n1, n2, lcm);
+                break;
+            }
+            ++lcm;
+        }
         int num = 29;
         boolean flag = false;
         for(int i = 2; i <= num/2; ++i)
@@ -14,9 +22,4 @@ public class Prime {
             }
         }
 
-        if (!flag)
-            System.out.println(num + " is a prime number.");
-        else
-            System.out.println(num + " is not a prime number.");
     }
-}
