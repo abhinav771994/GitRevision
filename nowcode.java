@@ -1,16 +1,10 @@
-public char charAt(int index) {  
-       if ((index < 0) || (index >= value.length)) {  
-           throw new StringIndexOutOfBoundsException(index);  
-       }  
-       return value[index];  
-}   
 public class Prime {
 
     public static void main(String[] args) {
 
-        int num = 33, i = 2;
+        int num = 29;
         boolean flag = false;
-        while(i <= num/2)
+        for(int i = 2; i <= num/2; ++i)
         {
             // condition for nonprime number
             if(num % i == 0)
@@ -18,8 +12,6 @@ public class Prime {
                 flag = true;
                 break;
             }
-
-            ++i;
         }
 
         if (!flag)
@@ -28,4 +20,3 @@ public class Prime {
             System.out.println(num + " is not a prime number.");
     }
 }
-  
