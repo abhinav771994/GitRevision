@@ -25,5 +25,5 @@ public class Prime {
     }
 
 	sout("First Commit checkout");
-sout(" Evrtything Is Good . Your Health is  awesome");
+	sout("Second Line ");
 
